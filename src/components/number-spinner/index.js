@@ -46,5 +46,11 @@ module.exports = require('marko-widgets').defineComponent({
     handleIncrementClick: function() {
         // Change the internal state (triggers a rerender)
         this.setState('value', this.state.value + 1);
+    },
+    handleInputKeyUp: function(event, el) {
+        var newValue = el.value;
+        if (/^-?[0-9]+$/.test(newValue)) {
+            this.setState('value', parseInt(newValue, 10));
+        }
     }
 });
