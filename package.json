@@ -1,0 +1,18 @@
+{
+  "name": "marko-widgets-client-rendering",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "lasso --main src/client.js --plugins lasso-marko --name bundle --inject-into index.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lasso": "^1.10.2",
+    "lasso-cli": "^1.1.13",
+    "lasso-marko": "^2.0.4",
+    "marko": "^2.7.9",
+    "marko-widgets": "^5.0.0-beta.2"
+  }
+}
