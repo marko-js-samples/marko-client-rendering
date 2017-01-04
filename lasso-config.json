@@ -1,0 +1,10 @@
+{
+    "outputDir": "static",
+    "urlPrefix": "./static",
+    "minify": false,
+    "bundlingEnabled": false,
+    "fingerprintsEnabled": false,
+    "plugins": [
+        "lasso-marko"
+    ]
+}
