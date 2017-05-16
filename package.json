@@ -1,5 +1,5 @@
 {
-  "name": "marko-widgets-client-rendering",
+  "name": "marko-client-rendering",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -12,6 +12,6 @@
     "lasso": "^2.8.4",
     "lasso-cli": "^2.0.6",
     "lasso-marko": "^2.2.0",
-    "marko": "^4.0.0-beta.8"
+    "marko": "^4.3.1"
   }
 }
